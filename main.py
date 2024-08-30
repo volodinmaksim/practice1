@@ -1,0 +1,6 @@
+variable = input()
+print(variable[0])
+print(variable[-1])
+print(variable[(len(variable))//2:])
+print(''.join(reversed(variable)))
+print(variable[1::2])
