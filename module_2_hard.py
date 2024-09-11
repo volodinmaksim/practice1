@@ -14,6 +14,7 @@ def summ(arr):
             for j in range(member, member//2 , -1):
                 if i + j == member:
                     array.append(str(i)+str(j))
+                    break
     return array
 
 for i in range(3,20+1):
