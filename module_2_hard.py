@@ -2,7 +2,7 @@ import math
 
 def divider(n):
     array = []
-    for i in range(3, n+1):   
+    for i in range(3, n+1):
         if n % i == 0:
             array.append(i)
     return array
@@ -17,5 +17,5 @@ def summ(arr):
                     break
     return array
 
-for i in range(3,20+1):
-    print(f'{i}:{summ(divider(i))}')
+for k in range(3,20+1):
+    print(f'{k}:{summ(divider(k))}')

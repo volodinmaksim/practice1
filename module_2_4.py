@@ -18,3 +18,6 @@ for i in range(len(numbers)):
 
 print(primes)
 print(not_primes)
+
+
+
